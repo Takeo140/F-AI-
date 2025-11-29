@@ -1,29 +1,46 @@
-# F-Theory (minimal scaffold)
+# F-THEORY-GITHUB
 
-This repository is a minimal, runnable scaffold to implement the PDF:
-*F-Theory: A Mathematical-Philosophical Unified Structure Based on Extremal Principles*.
+This project contains code related to the F-theory framework.  
+Files are organized with a numbering system to indicate execution order and purpose.
 
-## Structure
-- `ftheory/` : core modules (axioms, functional, quantum, layers, logic)
-- `examples/` : small demo scripts you can run locally
-- `tests/` : minimal pytest example
+## File Structure
 
-## Quickstart
-1. Create a virtualenv and install dependencies:
-   ```bash
-   python -m venv .venv
-   . .venv/bin/activate
-   pip install sympy numpy pytest
-   ```
-2. Run an example:
-   ```bash
-   python examples/demo_classical.py
-   ```
-3. Run tests:
-   ```bash
-   pytest -q
-   ```
+1. **01___init__.py**  
+   Package initialization file.
 
-## Notes
-- This is intentionally minimal and illustrative. The goal is to provide a concrete, extendable starting point.
-- Replace placeholders with rigorous numerical/analytic implementations as you iterate.
+2. **02_axioms.py**  
+   Definitions of axioms and basic settings.
+
+3. **03_functional.py**  
+   Collection of functions.
+
+4. **04_layers.py**  
+   Definitions of layers and structures.
+
+5. **05_logic.py**  
+   Modules for logical computations.
+
+6. **06_quantum.py**  
+   Modules for quantum-related operations.
+
+7. **07_demo_classical.py**  
+   Classical demonstration script.
+
+8. **08_demo_logic.py**  
+   Logic demonstration script.
+
+9. **09_demo_quantum.py**  
+   Quantum demonstration script.
+
+10. **10_test_axioms.py**  
+    Test script for axioms.
+
+## Usage
+
+1. Install required libraries:
+```bash
+pip install -r requirements.txt
+
+python 07_demo_classical.py
+python 08_demo_logic.py
+python 09_demo_quantum.py
